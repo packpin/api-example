@@ -13,9 +13,8 @@ Simple Packpin API Call from PHP example class. Should not be used in production
 
 1. Setup API Key at http://panel.packpin.com
 2. Clone repository
-2. Change API Key in index.php
-4. ???
-5. Profit
+3. Change API Key in index.php
+4. You're good to go!
 
 ### Example ###
 

@@ -103,6 +103,7 @@ class PackpinREST {
 
 		curl_setopt($this->_curlObj, CURLOPT_HEADER, false);
 		curl_setopt($this->_curlObj, CURLOPT_AUTOREFERER, true);
+		curl_setopt($this->_curlObj, CURLOPT_SSL_VERIFYPEER, 0);
 		curl_setopt($this->_curlObj, CURLOPT_FRESH_CONNECT, true);
 		curl_setopt($this->_curlObj, CURLOPT_RETURNTRANSFER, true);
 	}

@@ -64,7 +64,7 @@ class PackpinREST {
 		'404' => 'Not Found - Resource was not found.',
 		'405' => 'Method Not Allowed - Requested method is not supported for the specified resource.',
 		'429' => 'Too Many Requests - Exceeded API limits. Pause requests, wait one minute, and try again.',
-		'500' => 'Server error - Server error. Contact packpin@packpin.com',
+		'500' => 'Server error - Server error. Contact info@packpin.com',
 		'503' => 'Service Unavailable - The service is temporary unavailable (e.g. scheduled Platform Maintenance). Try again later.',
 	);
 
